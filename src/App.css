@@ -1,38 +1,116 @@
 .App {
   text-align: center;
+  /* background-color: #f7fafc; */
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.containerr {
+  margin-inline: auto;
+  max-width: 850px;
+  height: 100%;
+  padding-inline: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navdetail {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 850px;
+  line-height: 2em;
+  padding: 22px;
+  z-index: 2;
+  opacity: 95%;
+}
+
+.burger {
+  position: relative;
+  display: none;
+  cursor: pointer;
+  float: right;
+  width: 35px;
+  height: 32px;
+}
+
+.burger>div {
+  position: absolute;
+  width: 35px;
+  height: 1px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s, width 0.5s;
+}
+
+.line1open {
+  transform: translate(-50%, -10px) !important;
+}
+
+.line3open {
+  transform: translate(-50%, 8px) !important;
+}
+
+.line1close {
+  transform: translate(-50%, -45%) rotate(-45deg) !important;
+}
+
+.line2close {
+  width: 0px !important;
+}
+
+.line3close {
+  transform: translate(-50%, -45%) rotate(45deg) !important;
+}
+
+.burgermenue {
+  position: fixed;
+  padding-top: 30px;
+  top: 24px;
+  right: 0px;
+  left: 0px;
+
+}
+
+@media (max-width:600px) {
+  .router {
+    display: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navdetail {
+    padding-top: 22px;
+    padding-bottom: 11px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .burger {
+    display: flex;
+  }
+
+
+}
+
+
+
+.menu-box {
+  max-width: 600px;
+  margin-inline: auto;
+  opacity: 0.9;
+  height: 100vh;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+}
+
+footer {
+  height: 150px;
+}
+
+@media screen and (min-width: 600px) {
+  .burgermenue {
+    display: none;
   }
 }

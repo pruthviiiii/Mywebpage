@@ -1,0 +1,10 @@
+/* profile */
+.aboutpage {
+    min-height: 85vh;
+}
+
+.profilepicture {
+    width: 200px;
+    margin-inline: auto;
+    border-radius: 50%;
+}
