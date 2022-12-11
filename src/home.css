@@ -1,5 +1,5 @@
 section .intro {
-    height: 70vh;
+    min-height: 90vh;
     width: 100%;
 
 }
@@ -8,10 +8,7 @@ section .intro {
     margin-top: 80px;
     width: 150px;
     height: 150px;
-
     margin-inline: auto;
-
-
 }
 
 .myself {

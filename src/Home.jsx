@@ -53,7 +53,7 @@ function Home() {
               >
                 Resume
               </a>
-              <div className="flex justify-evenly mt-8 dark:text-white">
+              <div className="flex justify-evenly mt-12 dark:text-white">
                 <a
                   title="Github"
                   href="https://github.com/mant3sh"

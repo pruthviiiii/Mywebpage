@@ -6,7 +6,6 @@ import About from "./Components/About";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Project from "./Components/Project";
 import HobbiesandInterests from "./Components/HobbiesandInterests";
-import hi from "./Components/assests/hithere.png";
 
 const openInNewTab = (url) => {
   window.open(url, "_blank", "noopener,noreferrer");
@@ -27,7 +26,7 @@ function App() {
             <div className="flex-1 flex justify-between ">
               <div className="flex-none">
                 <Link to="/" className="font-bold text-xl dark:text-white">
-                  MB
+                  Ma
                 </Link>
               </div>
               <div className="router flex-1 flex justify-evenly  text-light-head ">
@@ -168,6 +167,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Project />} />
               <Route path="/Hobbis" element={<HobbiesandInterests />} />
+              <Route path="*" element={<Home />} />
             </Routes>
 
             {/* <Home /> */}
