@@ -29,7 +29,7 @@ function Home() {
           <div className="myself">
             <div className="picture">
               <img
-                className="pt-6 bg-white dark:bg-[#1a202c]"
+                className="pt-6 bg-white dark:bg-black"
                 src={bitmoji}
                 alt=""
               />
@@ -48,8 +48,9 @@ function Home() {
               </h2>
               <br />
               <a
-                href="#"
+                href="https://drive.google.com/drive/folders/1xWFcfMAxRH78YCPz7nQ6NLMRjngrDZ0A?usp=share_link"
                 className="resume text-lg text-white dark:text-black "
+                target="_blank"
               >
                 Resume
               </a>
@@ -152,27 +153,27 @@ function Home() {
         </h2>
         <br />
         <div className="flex flex-wrap justify-evenly gap-1 ">
-          <div className="tech flex justify-evenly dark:bg-[#22223b] dark:text-white">
+          <div className="tech flex justify-evenly dark:bg-[#414181]  dark:text-white">
             <img className="tech-img" src={javascript} alt="" srcset="" />
             JavaScript
           </div>
-          <div className="tech flex justify-evenly  dark:bg-[#22223b] dark:text-white">
+          <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
             <img className="tech-img" src={cpp} alt="" srcset="" />
             c++
           </div>
-          <div className="tech flex justify-evenly  dark:bg-[#22223b] dark:text-white">
+          <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
             <img className="tech-img" src={html5} alt="" srcset="" />
             Html 5
           </div>
-          <div className="tech flex justify-evenly  dark:bg-[#22223b] dark:text-white">
+          <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
             <img className="tech-img" src={css} alt="" srcset="" />
             CSS
           </div>
-          <div className="tech flex justify-evenly  dark:bg-[#22223b] dark:text-white">
+          <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
             <img className="tech-img" src={python} alt="" srcset="" />
             Python
           </div>
-          <div className="tech flex justify-evenly  dark:bg-[#22223b] dark:text-white">
+          <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
             <img className="tech-img" src={java} alt="" srcset="" />
             java
           </div>
@@ -183,23 +184,23 @@ function Home() {
         </h2>
         <br />
         <div className="flex flex-wrap justify-evenly gap-1">
-          <div className="tech flex justify-evenly  dark:bg-[#22223b] dark:text-white">
+          <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
             <img className="tech-img" src={react} alt="" srcset="" />
             React.js
           </div>
-          <div className="tech flex justify-evenly  dark:bg-[#22223b] dark:text-white">
+          <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
             <img className="tech-img" src={github} alt="" srcset="" />
             GitHub
           </div>
-          <div className="tech flex justify-evenly  dark:bg-[#22223b] dark:text-white">
+          <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
             <img className="tech-img" src={gitt} alt="" srcset="" />
             Git
           </div>
-          <div className="tech flex justify-evenly  dark:bg-[#22223b] dark:text-white">
+          <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
             <img className="tech-img" src={mangodb} alt="" srcset="" />
             MongoDB
           </div>
-          <div className="tech flex justify-evenly  dark:bg-[#22223b] dark:text-white">
+          <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
             <img className="tech-img" src={nodejs} alt="" srcset="" />
             Node.js
           </div>
@@ -210,7 +211,7 @@ function Home() {
           Platforms
         </h2>
         <br />
-        <div className="tech flex justify-evenly  dark:bg-[#22223b] dark:text-white">
+        <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
           <img className="tech-img" src={Netlify} alt="" srcset="" />
           Netlify
         </div>

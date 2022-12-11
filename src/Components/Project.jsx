@@ -7,7 +7,7 @@ import Projectcard from "./svg-folder/Projectcard";
 
 function Project() {
   return (
-    <div className=" page pt-32  bg-white dark:bg-[#1a202c] ">
+    <div className=" page pt-32  bg-white dark:bg-black ">
       <br />
       <br />
       <h1 className="dark:text-white font-bold text-4xl text-left">

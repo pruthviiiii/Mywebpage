@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  user-select: none;
+}
+
 body {
   margin: 0;
   font-family: 'Recursive', sans-serif;

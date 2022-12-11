@@ -3,7 +3,7 @@ import "./projectcard.css";
 
 function Projectcard(props) {
   return (
-    <div className="projectcard-temp bg-[#edf1ff] dark:bg-[#22223b]">
+    <div className="projectcard-temp bg-[#edf1ff] dark:bg-[#99604c]">
       <h1 className="dark:text-white font-bold text-2xl text-left">
         {props.title}
       </h1>

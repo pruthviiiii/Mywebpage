@@ -17,30 +17,36 @@ function App() {
   const closebur = () => {
     setMenue(false);
   };
+  const scrollUp2=()=>{
+    window.scrollTo({
+      top:0,
+      behavior:"auto"
+    })
+  }
 
   return (
     <div className={`App ${darkmode && "dark"}`}>
       <Router>
-        <div className="bg-white dark:bg-[#1a202c]">
-          <nav className="navdetail bg-white dark:bg-[#1a202c] flex gap-2">
+        <div className="bg-white dark:bg-black">
+          <nav className="navdetail bg-white dark:bg-black dark:opacity-90 flex gap-2">
             <div className="flex-1 flex justify-between ">
               <div className="flex-none">
-                <Link to="/" className="font-bold text-xl dark:text-white">
+                <Link to="/" className="font-bold text-xl dark:text-white" onClick={scrollUp2} >
                   Ma
                 </Link>
               </div>
               <div className="router flex-1 flex justify-evenly  text-light-head ">
-                <Link to="/about" className="font-bold text-l">
+                <Link to="/about" className="font-bold text-l" onClick={scrollUp2}>
                   About
                 </Link>
-                <Link to="/Projects" className="font-bold text-l">
+                <Link to="/Projects" className="font-bold text-l" onClick={scrollUp2}>
                   Projects
                 </Link>
-                <Link to="/Hobbis" className="font-bold text-l">
+                <Link to="/Hobbis" className="font-bold text-l" onClick={scrollUp2}>
                   Hobbies and Interests
                 </Link>
               </div>
-              <div className="flex-none font-bold text-l  gap-3 ">
+              <div className="flex-none font-bold text-l  gap-3 " >
                 {darkmode ? (
                   <div
                     className="flex gap-2 px-3 rounded-md cursor-pointer bg-[#7b7b7b] dark:text-white "
@@ -121,11 +127,12 @@ function App() {
           <div className="containerr">
             {menue && (
               <div className="burgermenue ">
-                <div className="menu-box pt-32 flex flex-col gap-12   text-2xl sm:text-3xl bg-[#f6f6f6] dark:bg-[#1a202c] dark:text-white">
+                <div className="menu-box pt-32 flex flex-col gap-12   text-2xl sm:text-3xl bg-[#f6f6f6] dark:bg-black dark:text-white">
                   <Link
                     to="/"
                     onClick={() => {
                       closebur();
+                      scrollUp2();
                     }}
                     className="font-bold  inline-block"
                   >
@@ -135,6 +142,7 @@ function App() {
                     to="/about"
                     onClick={() => {
                       closebur();
+                      scrollUp2();
                     }}
                     className="font-bold  inline-block"
                   >
@@ -144,6 +152,7 @@ function App() {
                     to="/projects"
                     onClick={() => {
                       closebur();
+                      scrollUp2();
                     }}
                     className="font-bold  inline-block"
                   >
@@ -153,6 +162,7 @@ function App() {
                     to="/Hobbis"
                     onClick={() => {
                       closebur();
+                      scrollUp2();
                     }}
                     className="font-bold  inline-block"
                   >
