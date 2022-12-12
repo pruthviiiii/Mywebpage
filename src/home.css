@@ -1,12 +1,11 @@
 section .intro {
-    min-height: 90vh;
+    min-height: 80vh;
     width: 100%;
 
 }
 
 .picture {
     margin-top: 80px;
-    width: 280px;
     margin-inline: auto;
 }
 

@@ -12,7 +12,7 @@ function About() {
             👋 Hi, how are you?{" "}
           </h1>
           <br />
-          <p className="dark:text-white text-left">
+          <p className="dark:text-white text-left text-sm sm:text-base">
             {" "}
             Mahantesh this side, a BE Graduate(2022) from Siddaganga Institute
             of Technology,Tumakuru(🇮🇳) majoring in Electronics and
@@ -20,7 +20,7 @@ function About() {
             stack.I'm a huge technology enthuiast.
           </p>
           <br />
-          <p className="dark:text-white text-left">
+          <p className="dark:text-white text-left text-sm sm:text-base">
             The recent outbreak of the global pandemic, which led to the
             lockdown, has made me a typical computer nerd. Currently iam looking
             for Internship/Full time opportunity in Front end development.

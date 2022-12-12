@@ -8,7 +8,9 @@ function Projectcard(props) {
         {props.title}
       </h1>
       <br />
-      <p className="dark:text-white text-left">{props.des}</p>
+      <p className="dark:text-white text-left text-sm sm:text-base">
+        {props.des}
+      </p>
       <br />
       <div className="  flex  gap-6 ">
         <a href={props.links.github} target="_blank">

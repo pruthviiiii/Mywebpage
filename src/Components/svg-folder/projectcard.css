@@ -4,12 +4,6 @@
     border-radius: 12px;
     min-height: 30vh;
     padding: 22px;
-    transition: transform 450ms;
     cursor: pointer;
-
-}
-
-.projectcard-temp:hover {
-    transform: scale(1.08);
 
 }

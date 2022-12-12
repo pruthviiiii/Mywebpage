@@ -27,7 +27,7 @@ function Home() {
       <section>
         <div className="intro flex flex-row items-center pt-6">
           <div className="myself">
-            <div className="picture">
+            <div className="picture w-[50%] sm:w-[30%] ">
               <img
                 className="pt-2 bg-white rounded-[50%] dark:bg-Dark-modeC "
                 src={bitmoji}
@@ -43,7 +43,7 @@ function Home() {
                 <span className=" text-light-head "> from India </span>
               </h1>
               <br />
-              <h2 className="font-semibold text-l sm:text-2xl  dark:text-white">
+              <h2 className="font-semibold text-lg sm:text-2xl  dark:text-white">
                 Full Stack Developer and Tech Enthusiat
               </h2>
               <br />
@@ -152,7 +152,7 @@ function Home() {
           Languages
         </h2>
         <br />
-        <div className="flex flex-wrap justify-evenly gap-1 ">
+        <div className="flex flex-wrap justify-between gap-1 ">
           <div className="tech flex justify-evenly dark:bg-[#414181]  dark:text-white">
             <img className="tech-img" src={javascript} alt="" srcset="" />
             JavaScript
@@ -183,7 +183,7 @@ function Home() {
           Tools & Technology
         </h2>
         <br />
-        <div className="flex flex-wrap justify-evenly gap-1">
+        <div className="flex flex-wrap justify-between gap-1">
           <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
             <img className="tech-img" src={react} alt="" srcset="" />
             React.js
@@ -211,7 +211,7 @@ function Home() {
           Platforms
         </h2>
         <br />
-        <div className="tech flex justify-evenly  dark:bg-[#414181] dark:text-white">
+        <div className="tech flex justify-betweeen  dark:bg-[#414181] dark:text-white">
           <img className="tech-img" src={Netlify} alt="" srcset="" />
           Netlify
         </div>

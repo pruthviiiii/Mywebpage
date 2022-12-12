@@ -28,10 +28,10 @@ function App() {
     <div className={`App ${darkmode && "dark"}`}>
       <Router>
         <div className="bg-white dark:bg-Dark-modeC ">
-          <nav className="navdetail bg-white  dark:bg-Dark-modeC  dark:opacity-90 flex gap-2">
+          <nav className="navdetail flex gap-2">
             <div className="flex-1 flex justify-between ">
               <div className="flex-none">
-                <Link to="/" className="font-bold text-xl dark:text-white" onClick={scrollUp2} >
+                <Link to="/" className="font-bold text-lg sm:text-xl dark:text-white" onClick={scrollUp2} >
                   Ma
                 </Link>
               </div>
@@ -46,16 +46,16 @@ function App() {
                   Hobbies and Interests
                 </Link>
               </div>
-              <div className="flex-none font-bold text-l  gap-3 " >
+              <div className="flex-none font-bold text-sm  gap-3 " >
                 {darkmode ? (
                   <div
-                    className="flex gap-2 px-3 rounded-md cursor-pointer bg-[#7b7b7b] dark:text-white "
+                    className="flex gap-2 px-3 py-1 rounded-md cursor-pointer bg-[#575656] opacity-70 dark:text-white "
                     onClick={() => {
                       setDarkmode(!darkmode);
                     }}
                   >
                     <svg
-                      className="mt-2"
+                      className="mt-[0.20rem]"
                       stroke="currentColor"
                       fill="currentColor"
                       stroke-width="0"
@@ -71,17 +71,17 @@ function App() {
                         <path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z" />
                       </g>
                     </svg>
-                    <span>Light Mode</span>
+                    <span >Light Mode</span>
                   </div>
                 ) : (
                   <div
-                    className="flex gap-2 px-3 rounded-md cursor-pointer bg-[#edf2f7] relative"
+                    className="flex gap-2 px-3 py-1 rounded-md cursor-pointer bg-[#edf2f7] relative"
                     onClick={() => {
                       setDarkmode(!darkmode);
                     }}
                   >
                     <svg
-                      className="mt-2"
+                      className="mt-[0.20rem]"
                       stroke="currentColor"
                       fill="currentColor"
                       stroke-width="0"
@@ -127,7 +127,7 @@ function App() {
           <div className="containerr">
             {menue && (
               <div className="burgermenue ">
-                <div className="menu-box pt-32 flex flex-col gap-12   text-2xl sm:text-3xl bg-[#f6f6f6] dark:bg-black dark:text-white">
+                <div className="menu-box pt-[20vh] flex flex-col gap-[10vh]  text-2xl sm:text-3xl bg-[#f6f6f6] dark:bg-black dark:text-white">
                   <Link
                     to="/"
                     onClick={() => {

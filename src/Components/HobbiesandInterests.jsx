@@ -12,7 +12,7 @@ function HobbiesandInterests() {
       </h1>
       <br />
       <br />
-      <p className="text-left dark:text-white">
+      <p className="text-left dark:text-white text-sm sm:text-base">
         As a passionate traveler, one of my favorite things to do is to explore
         the food and culture of different places. I love trying new dishes and
         learning about the history and traditions behind them. Food is such an
@@ -20,14 +20,14 @@ function HobbiesandInterests() {
         you can truly understand and appreciate a place and its people.
       </p>
       <br />
-      <p className="text-left dark:text-white">
+      <p className="text-left dark:text-white text-sm sm:text-base">
         But it's not just about the food itself. I also love learning about the
         history and traditions behind the dishes I try.These little bits of
         history add so much depth and flavor to the food I try, and they make
         the experience so much more meaningful.
       </p>
       <br />
-      <p className="text-left dark:text-white">
+      <p className="text-left dark:text-white text-sm sm:text-base">
         Overall, I believe that food is an essential part of any travel
         experience. It allows you to truly understand and appreciate the culture
         of a place, and it can be a delicious and exciting adventure in itself.
@@ -41,7 +41,7 @@ function HobbiesandInterests() {
       </h1>
       <br />
       <br />
-      <p className="text-left dark:text-white">
+      <p className="text-left dark:text-white text-sm sm:text-base">
         Started Playing Cricket when i was kid ever since actively pursued
         playing cricket,made great friends because of it and always had fun
         playing along side so many amazing people Cricket is my passion, and I
@@ -57,7 +57,7 @@ function HobbiesandInterests() {
         Formula 1 🏁
       </h1>
       <br />
-      <p className="text-left dark:text-white">
+      <p className="text-left dark:text-white text-sm sm:text-base">
         As a huge fan of speed and technology, After watching Drive to Survive
         in 2019 ever since i became a huge fan of F1 and never missed any race.
         The incredible speeds, the cutting-edge technology, and the intense
@@ -71,7 +71,7 @@ function HobbiesandInterests() {
         Other Interests 🎮🏓
       </h1>
       <br />
-      <p className="text-left dark:text-white">
+      <p className="text-left dark:text-white text-sm sm:text-base">
         I started playing CS:GO as well, initally just to try it but then ended
         up playing it 600+hrs.
       </p>
@@ -82,7 +82,7 @@ function HobbiesandInterests() {
       </h1>
       <br />
       <br />
-      <p className="text-left dark:text-white">
+      <p className="text-left dark:text-white text-sm sm:text-base">
         Ever since my childhood I've been interested in tech, computers etc.
         Trying different OSs was my favorite weekend thing (and completing silly
         Pokémon emulator games on NDS, GBA). Was always tweaking my computers
