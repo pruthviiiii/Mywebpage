@@ -5,9 +5,9 @@ import chug from "./projectimg/chugnorris.png";
 import weather from "./projectimg/weatherapp.png";
 import Projectcard from "./svg-folder/Projectcard";
 
-function Project() {
+function Project(props) {
   return (
-    <div className=" page pt-32  bg-white dark:bg-black ">
+    <div className=" page pt-32  bg-white dark:bg-Dark-modeC ">
       <br />
       <br />
       <h1 className="dark:text-white font-bold text-4xl text-left">
@@ -17,7 +17,11 @@ function Project() {
       <br />
       <img
         className="mx-auto"
-        src="https://streak-stats.demolab.com/?user=mant3sh"
+        src={
+          props.darkMode
+            ? "https://github-readme-streak-stats.herokuapp.com?user=mant3sh&theme=dark&hide_border=true"
+            : "https://streak-stats.demolab.com/?user=mant3sh"
+        }
         alt=""
       />
       <br />

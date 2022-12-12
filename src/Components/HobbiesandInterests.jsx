@@ -3,7 +3,7 @@ import "./hobbies.css";
 
 function HobbiesandInterests() {
   return (
-    <div className="pt-32  bg-white dark:bg-black">
+    <div className="pt-32  bg-white  dark:bg-Dark-modeC ">
       <br />
       <br />
       <br />

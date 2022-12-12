@@ -27,8 +27,8 @@ function App() {
   return (
     <div className={`App ${darkmode && "dark"}`}>
       <Router>
-        <div className="bg-white dark:bg-black">
-          <nav className="navdetail bg-white dark:bg-black dark:opacity-90 flex gap-2">
+        <div className="bg-white dark:bg-Dark-modeC ">
+          <nav className="navdetail bg-white  dark:bg-Dark-modeC  dark:opacity-90 flex gap-2">
             <div className="flex-1 flex justify-between ">
               <div className="flex-none">
                 <Link to="/" className="font-bold text-xl dark:text-white" onClick={scrollUp2} >
@@ -175,7 +175,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/projects" element={<Project />} />
+              <Route path="/projects" element={<Project darkMode={darkmode} />} />
               <Route path="/Hobbis" element={<HobbiesandInterests />} />
               <Route path="*" element={<Home />} />
             </Routes>

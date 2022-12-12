@@ -1,15 +1,12 @@
 import React from "react";
 import "./about.css";
+import profile from "./assests/profile.png";
 
 function About() {
   return (
-    <div className="aboutpage pt-32  bg-white dark:bg-black ">
+    <div className="aboutpage pt-32  bg-white  dark:bg-Dark-modeC  ">
       <div>
-        <img
-          className="profilepicture"
-          src="https://media.licdn.com/dms/image/D5603AQEiztlfW_x0qQ/profile-displayphoto-shrink_800_800/0/1667803931357?e=1675900800&v=beta&t=Bc0Fc9JVORalgpLG5n7F3A-h5g7-7LorXj-M0_L6pEY"
-          alt=""
-        />
+        <img className="profilepicture" src={profile} alt="" />
         <div className="mt-6">
           <h1 className="dark:text-white font-bold text-4xl">
             👋 Hi, how are you?{" "}

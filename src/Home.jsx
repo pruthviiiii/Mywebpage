@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import bitmoji from "./Components/assests/hithere.png";
+import bitmoji from "./Components/assests/profile2.png";
 import Projectdisplay from "./Components/Projectdisplay";
 import javascript from "./Components/svg-folder/javascript.svg";
 import css from "./Components/svg-folder/css.svg";
@@ -29,7 +29,7 @@ function Home() {
           <div className="myself">
             <div className="picture">
               <img
-                className="pt-6 bg-white dark:bg-black"
+                className="pt-2 bg-white rounded-[50%] dark:bg-Dark-modeC "
                 src={bitmoji}
                 alt=""
               />
