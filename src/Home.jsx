@@ -29,12 +29,12 @@ function Home() {
             <div className="des">
               <h1 className="text-center font-bold text-2xl sm:text-[2rem]">
                 <span className=" text-light-head "> Hi, I'm </span>
-                <span className="dark:text-white">Mahantesha</span>
+                <span>Mahantesha</span>
 
                 <span className=" text-light-head "> from India </span>
               </h1>
               <br />
-              <p className="font-bold text-lg sm:text-lg  dark:text-white">
+              <p className="font-bold text-lg sm:text-lg  ">
                 Full Stack Developer and Tech Enthusiat
               </p>
               <br />

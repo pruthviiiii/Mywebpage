@@ -7,11 +7,11 @@ function About() {
     <div className="aboutpage pt-32  bg-light-modeC  dark:bg-Dark-modeC  ">
       <div>
         <div className="mt-6">
-          <h1 className="dark:text-white font-bold text-2xl text-left">
+          <h1 className=" font-bold text-2xl text-left">
             👋 Hi, how are you?{" "}
           </h1>
           <br />
-          <p className="dark:text-white text-left text-sm sm:text-base">
+          <p className=" text-left text-sm sm:text-base">
             {" "}
             Mahantesh this side, a BE Graduate(2022) from Siddaganga Institute
             of Technology,Tumakuru(🇮🇳) majoring in Electronics and
@@ -19,17 +19,17 @@ function About() {
             stack.I'm a huge technology enthuiast.
           </p>
           <br />
-          <p className="dark:text-white text-left text-sm sm:text-base">
+          <p className=" text-left text-sm sm:text-base">
             The recent outbreak of the global pandemic, which led to the
             lockdown, has made me a typical computer nerd. Currently iam looking
             for Internship/Full time opportunity in Front end development.
           </p>
           <br />
-          <div className="flex gap-6 mt-8 mr-2 dark:text-white">
+          <div className="flex gap-6 mt-8 mr-2 ">
             <a
               title="Github"
               href="https://github.com/mant3sh"
-              className="dark:text-white connect"
+              className="dark:text-light-text connect"
               target="_blank"
             >
               <svg
@@ -130,21 +130,17 @@ function About() {
             </a>
           </div>
           <br />
-          <h1 className="text-2xl font-bold dark:text-white text-left">
+          <h1 className="text-2xl font-bold  text-left">
             My Interests lies in:
           </h1>
           <ul className="list-none text-left">
-            <li className=" dark:text-white text-sm font-medium">
-              🔗 Full Stack Development
-            </li>
+            <li className="  text-sm font-medium">🔗 Full Stack Development</li>
 
-            <li className="dark:text-white  text-sm font-medium">
+            <li className="  text-sm font-medium">
               🔗 Data structures and Algorithms
             </li>
 
-            <li className="dark:text-white text-sm font-medium">
-              🔗 Problem Solving
-            </li>
+            <li className=" text-sm font-medium">🔗 Problem Solving</li>
           </ul>
         </div>
       </div>

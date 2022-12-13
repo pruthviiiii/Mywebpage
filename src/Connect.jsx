@@ -3,11 +3,11 @@ import React from "react";
 function connect() {
   return (
     <div>
-      <div className="flex justify-evenly mt-12 dark:text-white">
+      <div className="flex justify-evenly mt-12 ">
         <a
           title="Github"
           href="https://github.com/mant3sh"
-          className="dark:text-white connect"
+          className="dark:text-light-text connect"
           target="_blank"
         >
           <svg

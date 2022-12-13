@@ -27,11 +27,11 @@ function App() {
   return (
     <div className={`App ${darkmode && "dark"}`}>
       <Router>
-        <div className="bg-light-modeC dark:bg-Dark-modeC ">
+        <div className="bg-light-modeC dark:bg-Dark-modeC text-Dark-text dark:text-light-text">
           <nav className="navdetail flex bg-nav-light dark:bg-nav-dark gap-2">
             <div className="flex-1 flex justify-between ">
               <div className="flex-none">
-                <Link to="/" className="font-bold text-lg sm:text-xl dark:text-white" onClick={scrollUp2} >
+                <Link to="/" className="font-bold text-lg sm:text-xl" onClick={scrollUp2} >
                   Ma
                 </Link>
               </div>
@@ -49,7 +49,7 @@ function App() {
               <div className="flex-none mr-2 font-bold text-sm  gap-3 " >
                 {darkmode ? (
                   <div
-                    className="flex gap-2 px-3 py-1 rounded-md cursor-pointer bg-[#3a4254] dark:opacity-80  dark:text-white "
+                    className="flex gap-2 px-3 py-1 rounded-md cursor-pointer bg-[#3a4254] dark:opacity-80 "
                     onClick={() => {
                       setDarkmode(!darkmode);
                     }}
@@ -110,16 +110,16 @@ function App() {
               <div
                 className={`${!menue && "line1open"} ${
                   menue && "line1close"
-                } bg-black dark:bg-white`}
+                } bg-Dark-text dark:bg-light-text`}
               ></div>
               <div
-                className={`${menue && "line2close"}  bg-black dark:bg-white`}
+                className={`${menue && "line2close"}  bg-Dark-text dark:bg-light-text`}
                 id={`${menue && "line2close"}`}
               ></div>
               <div
                 className={` ${!menue && "line3open"} ${
                   menue && "line3close"
-                } bg-black dark:bg-white`}
+                } bg-Dark-text dark:bg-light-text`}
               ></div>
             </div>
           </nav>
@@ -127,7 +127,7 @@ function App() {
           <div className="containerr">
             {menue && (
               <div className="burgermenue ">
-                <div className="menu-box pt-[20vh] flex flex-col gap-[10vh]  text-2xl sm:text-3xl bg-[#f6f6f6] dark:bg-[#1a202c] dark:text-white">
+                <div className="menu-box pt-[20vh] flex flex-col gap-[10vh]  text-2xl sm:text-3xl bg-[#f6f6f6] dark:bg-[#1a202c] text-Dark-text dark:text-light-text">
                   <Link
                     to="/"
                     onClick={() => {
@@ -183,11 +183,11 @@ function App() {
             {/* <Home /> */}
             <hr className="line mt-4" />
             <footer className="mt-5 pb-5 flex flex-col justify-evenly">
-              <div className="flex gap-10 mr-auto ml-auto dark:text-white mt-5">
+              <div className="flex gap-10 mr-auto ml-auto mt-5">
                 <a
                   title="Github"
                   href="https://github.com/mant3sh"
-                  className="dark:text-white"
+                  className="dark:text-light-text"
                   target="_blank"
                 >
                   <svg
@@ -265,7 +265,7 @@ function App() {
                 </a>
               </div>
               <br />
-              <div className="font-medium  dark:text-white">
+              <div className="font-medium  text-Dark-text dark:text-light-text">
                 Built with 💜 by Mahantesha
               </div>
             </footer>

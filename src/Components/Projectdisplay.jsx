@@ -13,7 +13,7 @@ function Projectdisplay(props) {
           <div className="dot bg-[#89cf8d]"></div>
         </div>
       </div>
-      <div className="bg-[#edf1ff]  dark:bg-[#22223b] dark:text-white">
+      <div className="bg-[#edf1ff]  dark:bg-[#22223b]">
         <h1 className=" font-bold text-xl sm:text-3xl pt-3 pb-3 ">
           {props.title}
         </h1>
@@ -40,7 +40,7 @@ function Projectdisplay(props) {
         </div>
         <div className="flex mt-3 mx-0 w-90 justify-center p-2  gap-5">
           <a
-            className="ap flex gap-1 text-[#314e89] dark:text-white"
+            className="ap flex gap-1 text-[#314e89] dark:text-light-text"
             href={`${props.links.github}`}
             target="_blank"
           >
@@ -59,7 +59,7 @@ function Projectdisplay(props) {
             Github
           </a>
           <a
-            className="ap flex gap-1 text-[#314e89] dark:text-white"
+            className="ap flex gap-1 text-[#314e89] dark:text-light-text "
             href={`${props.links.live}`}
             target="_blank"
           >

@@ -4,18 +4,13 @@ import "./projectcard.css";
 function Projectcard(props) {
   return (
     <div className="projectcard-temp bg-[#edf1ff] dark:bg-[#22223b]">
-      <h1 className="dark:text-white font-bold text-lg text-left">
-        {props.title}
-      </h1>
+      <h1 className="font-bold text-lg text-left">{props.title}</h1>
       <br />
-      <p className="dark:text-white text-left text-sm sm:text-base">
-        {props.des}
-      </p>
+      <p className=" text-left text-sm sm:text-base">{props.des}</p>
       <br />
       <div className="  flex  gap-6 ">
         <a href={props.links.github} target="_blank">
           <svg
-            className="dark:text-white"
             width="25"
             height="24"
             viewBox="0 0 256 249"
@@ -30,7 +25,6 @@ function Projectcard(props) {
         </a>
         <a href={props.links.live} target="_blank">
           <svg
-            className="dark:text-white"
             stroke="currentcolor"
             fill="currentcolor"
             stroke-width="0"

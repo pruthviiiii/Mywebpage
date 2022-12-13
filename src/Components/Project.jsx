@@ -10,9 +10,7 @@ function Project(props) {
     <div className=" page pt-32  bg-light-modeC dark:bg-Dark-modeC ">
       <br />
       <br />
-      <h1 className="dark:text-white font-bold text-2xl text-left">
-        Github Stats
-      </h1>
+      <h1 className=" font-bold text-2xl text-left">Github Stats</h1>
       <br />
       <br />
       <img
@@ -26,9 +24,7 @@ function Project(props) {
       />
       <br />
       <br />
-      <h1 className="dark:text-white font-bold text-2xl text-left">
-        Featured Projects
-      </h1>
+      <h1 className=" font-bold text-2xl text-left">Featured Projects</h1>
       <br />
       <br />
       <Projectdisplay
@@ -58,9 +54,7 @@ function Project(props) {
       <br />
       <br />
       <br />
-      <h1 className="dark:text-white font-bold text-2xl text-left">
-        More Projects
-      </h1>
+      <h1 className=" font-bold text-2xl text-left">More Projects</h1>
       <div className="mt-5 projectgrid grid grid-cols-1 sm:grid-cols-2  gap-6">
         <div>
           <Projectcard
