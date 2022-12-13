@@ -5,9 +5,9 @@ const openInNewTab = (url) => {
 };
 function Projectdisplay(props) {
   return (
-    <div className="project">
+    <div className="project ">
       <div className="domain w-ful p-1">
-        <div className="dots mt-1 flex gap-1">
+        <div className="dots mt-[1px] flex gap-1">
           <div className="dot  bg-[#c94645]"></div>
           <div className="dot bg-[#e4c36e]"></div>
           <div className="dot bg-[#89cf8d]"></div>
@@ -17,13 +17,9 @@ function Projectdisplay(props) {
         <h1 className=" font-bold text-xl sm:text-3xl pt-3 pb-3 ">
           {props.title}
         </h1>
-        <div
-          className="projectimgage mt"
-          style={{ backgroundImage: `url("${props.image}")` }}
-        >
-          {" "}
-          <img src={props.image} />
-        </div>
+
+        <img className="projectimgage" src={props.image} />
+
         <div className="des  mt-3 bg-[#ade8f4] flex dark:bg-[#edf1ff] dark:text-[#22223b]">
           <div className="flex flex-col justify-center mr-3">
             <svg

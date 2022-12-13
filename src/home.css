@@ -13,19 +13,13 @@ section .intro {
     margin-inline: auto;
 }
 
-.resume {
-    padding: 10px 20px;
-    border-radius: 16px;
-    background-color: #319795;
-
-}
 
 /*tech*/
 .tech {
     padding: 5px 10px;
     background-color: #f6f6f6;
-    margin-right: 8px;
-    width: 130px;
+
+    width: 120px;
     border-radius: 4px;
     cursor: pointer;
 }

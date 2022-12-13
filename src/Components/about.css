@@ -2,9 +2,3 @@
 .aboutpage {
     min-height: 85vh;
 }
-
-.profilepicture {
-    width: 300px;
-    margin-inline: auto;
-    border-radius: 50%;
-}

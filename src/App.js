@@ -12,7 +12,7 @@ const openInNewTab = (url) => {
 };
 
 function App() {
-  const [darkmode, setDarkmode] = useState(false);
+  const [darkmode, setDarkmode] = useState(true);
   const [menue, setMenue] = useState(false);
   const closebur = () => {
     setMenue(false);
@@ -27,8 +27,8 @@ function App() {
   return (
     <div className={`App ${darkmode && "dark"}`}>
       <Router>
-        <div className="bg-white dark:bg-Dark-modeC ">
-          <nav className="navdetail flex gap-2">
+        <div className="bg-light-modeC dark:bg-Dark-modeC ">
+          <nav className="navdetail flex bg-nav-light dark:bg-nav-dark gap-2">
             <div className="flex-1 flex justify-between ">
               <div className="flex-none">
                 <Link to="/" className="font-bold text-lg sm:text-xl dark:text-white" onClick={scrollUp2} >
@@ -46,10 +46,10 @@ function App() {
                   Hobbies and Interests
                 </Link>
               </div>
-              <div className="flex-none font-bold text-sm  gap-3 " >
+              <div className="flex-none mr-2 font-bold text-sm  gap-3 " >
                 {darkmode ? (
                   <div
-                    className="flex gap-2 px-3 py-1 rounded-md cursor-pointer bg-[#575656] opacity-70 dark:text-white "
+                    className="flex gap-2 px-3 py-1 rounded-md cursor-pointer bg-[#3a4254] dark:opacity-80  dark:text-white "
                     onClick={() => {
                       setDarkmode(!darkmode);
                     }}
@@ -127,7 +127,7 @@ function App() {
           <div className="containerr">
             {menue && (
               <div className="burgermenue ">
-                <div className="menu-box pt-[20vh] flex flex-col gap-[10vh]  text-2xl sm:text-3xl bg-[#f6f6f6] dark:bg-black dark:text-white">
+                <div className="menu-box pt-[20vh] flex flex-col gap-[10vh]  text-2xl sm:text-3xl bg-[#f6f6f6] dark:bg-[#1a202c] dark:text-white">
                   <Link
                     to="/"
                     onClick={() => {

@@ -7,10 +7,10 @@ import Projectcard from "./svg-folder/Projectcard";
 
 function Project(props) {
   return (
-    <div className=" page pt-32  bg-white dark:bg-Dark-modeC ">
+    <div className=" page pt-32  bg-light-modeC dark:bg-Dark-modeC ">
       <br />
       <br />
-      <h1 className="dark:text-white font-bold text-4xl text-left">
+      <h1 className="dark:text-white font-bold text-2xl text-left">
         Github Stats
       </h1>
       <br />
@@ -26,7 +26,7 @@ function Project(props) {
       />
       <br />
       <br />
-      <h1 className="dark:text-white font-bold text-4xl text-left">
+      <h1 className="dark:text-white font-bold text-2xl text-left">
         Featured Projects
       </h1>
       <br />
@@ -58,7 +58,7 @@ function Project(props) {
       <br />
       <br />
       <br />
-      <h1 className="dark:text-white font-bold text-4xl text-left">
+      <h1 className="dark:text-white font-bold text-2xl text-left">
         More Projects
       </h1>
       <div className="mt-5 projectgrid grid grid-cols-1 sm:grid-cols-2  gap-6">

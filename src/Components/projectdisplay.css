@@ -1,15 +1,13 @@
 .project {
-    width: 96%;
-    margin-inline: auto;
+
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
-
 }
 
 .domain {
     background-color: #7b61ff;
-    height: 28px;
+    height: 20px;
 }
 
 .nan {
@@ -25,11 +23,7 @@
     overflow: hidden;
     border-radius: 4px;
     margin-inline: auto;
-    height: 30vh;
-    /* background-image: url("./projectimg/chugnorris.png"); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    border: 2px solid white;
 }
 
 .dots {
@@ -38,8 +32,8 @@
 }
 
 .dot {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
 }
 

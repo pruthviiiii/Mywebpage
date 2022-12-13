@@ -4,11 +4,10 @@ import profile from "./assests/profile.png";
 
 function About() {
   return (
-    <div className="aboutpage pt-32  bg-white  dark:bg-Dark-modeC  ">
+    <div className="aboutpage pt-32  bg-light-modeC  dark:bg-Dark-modeC  ">
       <div>
-        <img className="profilepicture" src={profile} alt="" />
         <div className="mt-6">
-          <h1 className="dark:text-white font-bold text-4xl">
+          <h1 className="dark:text-white font-bold text-2xl text-left">
             👋 Hi, how are you?{" "}
           </h1>
           <br />
@@ -135,16 +134,15 @@ function About() {
             My Interests lies in:
           </h1>
           <ul className="list-none text-left">
-            <br />
-            <li className=" text-light-head text-lg font-semibold">
+            <li className=" dark:text-white text-sm font-medium">
               🔗 Full Stack Development
             </li>
-            <br />
-            <li className=" text-light-head text-lg font-semibold">
+
+            <li className="dark:text-white  text-sm font-medium">
               🔗 Data structures and Algorithms
             </li>
-            <br />
-            <li className=" text-light-head text-lg font-semibold">
+
+            <li className="dark:text-white text-sm font-medium">
               🔗 Problem Solving
             </li>
           </ul>
