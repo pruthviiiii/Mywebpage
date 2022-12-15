@@ -4,6 +4,7 @@ import Projectdisplay from "./Projectdisplay";
 import chug from "./projectimg/chugnorris.png";
 import weather from "./projectimg/weatherapp.png";
 import Projectcard from "./svg-folder/Projectcard";
+import netflixclone from "./projectimg/netflixclone.png";
 
 function Project(props) {
   return (
@@ -25,6 +26,19 @@ function Project(props) {
       <br />
       <br />
       <h1 className=" font-bold text-2xl text-left">Featured Projects</h1>
+      <br />
+      <br />
+      <Projectdisplay
+        title={"NETFLIX Clone "}
+        des={
+          "A Netflix Clone App built using React js & TMDB API to fetch all the popular movies, top-rated shows, what's trending, collections, lists, and much more."
+        }
+        image={netflixclone}
+        links={{
+          github: "https://github.com/mant3sh/Netflix-Clone",
+          live: "https://netflix-clone-mant3sh.netlify.app/",
+        }}
+      />
       <br />
       <br />
       <Projectdisplay
@@ -53,6 +67,7 @@ function Project(props) {
       />
       <br />
       <br />
+
       <br />
       <h1 className=" font-bold text-2xl text-left">More Projects</h1>
       <div className="mt-5 projectgrid grid grid-cols-1 sm:grid-cols-2  gap-6">

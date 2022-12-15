@@ -3,6 +3,7 @@ import "./home.css";
 import bitmoji from "./Components/assests/profile2.png";
 import Projectdisplay from "./Components/Projectdisplay";
 import chug from "./Components/projectimg/chugnorris.png";
+import netflixclone from "./Components/projectimg/netflixclone.png";
 import weather from "./Components/projectimg/weatherapp.png";
 import { Link } from "react-router-dom";
 import Connect from "./Connect";
@@ -94,6 +95,21 @@ function Home() {
       </section>
       <br />
       <div>
+        <br />
+        <br />
+        <Projectdisplay
+          title={"NETFLIX Clone "}
+          des={
+            "A Netflix Clone App built using React js & TMDB API to fetch all the popular movies, top-rated shows, what's trending, collections, lists, and much more."
+          }
+          image={netflixclone}
+          links={{
+            github: "https://github.com/mant3sh/Netflix-Clone",
+            live: "https://netflix-clone-mant3sh.netlify.app/",
+          }}
+        />
+        <br />
+        <br />
         <Projectdisplay
           title={"Weather Forecasting Site"}
           des={
