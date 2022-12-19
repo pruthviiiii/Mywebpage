@@ -10,8 +10,10 @@ import github from "./svg-folder/github.svg";
 import mangodb from "./svg-folder/mangodb.svg";
 import nodejs from "./svg-folder/nodejs.svg";
 import react from "./svg-folder/react.svg";
+import redux from "./svg-folder/redux.svg";
 import Netlify from "./svg-folder/netlify.svg";
 import Techdisplaybox from "./Techdisplaybox";
+import express from "./svg-folder/express.svg";
 
 function TechStack() {
   return (
@@ -33,10 +35,12 @@ function TechStack() {
       <br />
       <div className="flex justify-between flex-wrap gap-1">
         <Techdisplaybox image={react} tech={"React js"} />
-        <Techdisplaybox image={github} tech={"GitHub"} />
-        <Techdisplaybox image={gitt} tech={"Git"} />
+        <Techdisplaybox image={redux} tech={"Redux"} />
+        <Techdisplaybox image={express} tech={"Express"} />
         <Techdisplaybox image={mangodb} tech={"Mongo DB"} />
         <Techdisplaybox image={nodejs} tech={"Node js"} />
+        <Techdisplaybox image={github} tech={"GitHub"} />
+        <Techdisplaybox image={gitt} tech={"Git"} />
       </div>
 
       <br />

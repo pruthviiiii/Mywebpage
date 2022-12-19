@@ -27,7 +27,7 @@ function Home() {
               />
             </div>
             <br />
-            <div className="des">
+            <div className="pt-2">
               <h1 className="text-center font-bold text-2xl sm:text-[2rem]">
                 <span className=" text-light-head "> Hi, I'm </span>
                 <span>Mahantesha</span>
@@ -76,7 +76,7 @@ function Home() {
           Tech Stack
         </h1>
         <br />
-        <div className="w-[94%] mx-auto">
+        <div className="w-[85%]  sm:w-[90%] mx-auto">
           <TechStack />
         </div>
       </section>
@@ -94,8 +94,7 @@ function Home() {
         </h2>
       </section>
       <br />
-      <div>
-        <br />
+      <div className="sm:w-[96%] mx-auto">
         <br />
         <Projectdisplay
           title={"NETFLIX Clone "}

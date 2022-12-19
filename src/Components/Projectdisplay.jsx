@@ -14,9 +14,7 @@ function Projectdisplay(props) {
         </div>
       </div>
       <div className="bg-[#edf1ff]  dark:bg-[#22223b]">
-        <h1 className=" font-bold text-xl sm:text-3xl pt-3 pb-3 ">
-          {props.title}
-        </h1>
+        <h1 className=" font-bold text-2xl  pt-1 pb-1 ">{props.title}</h1>
 
         <img className="projectimgage" src={props.image} />
 
@@ -34,9 +32,7 @@ function Projectdisplay(props) {
               <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
             </svg>
           </div>
-          <div className="dess flex-1 text-sm sm:text-base text-left ">
-            {props.des}
-          </div>
+          <div className="dess flex-1 text-sm  text-left ">{props.des}</div>
         </div>
         <div className="flex mt-3 mx-0 w-90 justify-center p-2  gap-5">
           <a

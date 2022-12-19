@@ -36,6 +36,26 @@ function HobbiesandInterests() {
       </p>
       <br />
       <br />
+      <h1 className="text-3xl font-semibold text-left ">Books 📖</h1>
+      <br />
+      <br />
+      <p className="text-left  text-sm sm:text-base">
+        I have always been drawn to books that offer practical tips and
+        strategies for personal growth and development. Whether it's learning
+        how to break bad habits, increase productivity, or improve my financial
+        situation, self-help books have provided me with the knowledge and tools
+        to make positive changes in my life.
+      </p>
+      <br />
+      <p className="text-left  text-sm sm:text-base">
+        I also love the way that self-help books can provide inspiration and
+        motivation. As someone who is always striving to be better and do
+        better, I find that reading self-help books helps to keep me focused and
+        on track. They provide me with the encouragement and support I need to
+        overcome challenges and pursue my goals.
+      </p>
+      <br />
+      <br />
       <h1 className="text-3xl font-semibold text-left ">Cricket 🏏</h1>
       <br />
       <br />
