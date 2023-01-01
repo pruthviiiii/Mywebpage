@@ -3,11 +3,12 @@
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px;
 }
 
 .domain {
     background-color: #7b61ff;
-    height: 20px;
+    height: 25px;
 }
 
 .nan {
@@ -21,7 +22,7 @@
 .projectimgage {
     width: 96%;
     overflow: hidden;
-    border-radius: 4px;
+    border-radius: 8px;
     margin-inline: auto;
     border: 2px solid white;
 
@@ -33,14 +34,15 @@
 }
 
 .dot {
+    margin-top: 2px;
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
 
 .des {
-    border-radius: 6px;
-    padding: 10px;
+    border-radius: 8px;
+    padding: 15px;
     width: 96%;
     margin-inline: auto;
     box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
@@ -55,4 +57,15 @@
     border: 1px solid;
     padding: 5px 10px;
     border-radius: 16px;
+}
+
+@media (min-width:500px) {
+    .projectimgage {
+        width: 90%;
+    }
+
+    .des {
+        width: 90%;
+    }
+
 }

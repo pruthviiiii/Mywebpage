@@ -7,19 +7,18 @@ function About() {
     <div className="aboutpage pt-32  bg-light-modeC  dark:bg-Dark-modeC  ">
       <div>
         <div className="mt-6">
-          <h1 className=" font-bold text-2xl text-left">
+          <h1 className=" font-bold text-4xl text-left">
             👋 Hi, how are you?{" "}
           </h1>
           <br />
-          <p className=" text-left text-sm sm:text-base">
-            {" "}
+          <p className=" text-left text-[18px]  ">
             Mahantesh this side, a BE Graduate(2022) from Siddaganga Institute
             of Technology,Tumakuru(🇮🇳) majoring in Electronics and
             Telecommunication. I'm a Full Stack Developer, familiar with MERN
             stack.I'm a huge technology enthuiast.
           </p>
           <br />
-          <p className=" text-left text-sm sm:text-base">
+          <p className=" text-left text-[18px] ">
             The recent outbreak of the global pandemic, which led to the
             lockdown, has made me a typical computer nerd. Currently iam looking
             for Internship/Full time opportunity in Front end development.
@@ -34,8 +33,8 @@ function About() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
+                width="22"
+                height="22"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentcolor"
@@ -55,8 +54,8 @@ function About() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="18"
+                width="20"
+                height="22"
                 fill="currentcolor"
                 className="feather feather-linkedin"
                 stroke-linecap="round"
@@ -73,8 +72,8 @@ function About() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
+                width="22"
+                height="22"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentcolor"
@@ -95,10 +94,10 @@ function About() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
+                width="22"
+                height="22"
                 viewBox="0 0 24 24"
-                fill="none"
+                fill="currentcolor"
                 stroke="currentcolor"
                 stroke-width="2"
                 stroke-linecap="round"
@@ -121,8 +120,8 @@ function About() {
                 viewBox="0 0 384 512"
                 focusable="false"
                 className="chakra-icon chakra-emotion-css-m9n82g"
-                height="1em"
-                width="1em"
+                height="22"
+                width="22"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm64 236c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-64c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-72v8c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm96-114.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z" />
@@ -130,17 +129,21 @@ function About() {
             </a>
           </div>
           <br />
-          <h1 className="text-2xl font-bold  text-left">
+          <br />
+          <br />
+          <h1 className="text-3xl font-bold  text-left">
             My Interests lies in:
           </h1>
           <ul className="list-none text-left">
-            <li className="  text-sm font-medium">🔗 Full Stack Development</li>
+            <li className="  text-base font-medium">
+              🔗 Full Stack Development
+            </li>
 
-            <li className="  text-sm font-medium">
+            <li className="  text-base font-medium">
               🔗 Data structures and Algorithms
             </li>
 
-            <li className=" text-sm font-medium">🔗 Problem Solving</li>
+            <li className=" text-base font-medium">🔗 Problem Solving</li>
           </ul>
         </div>
       </div>

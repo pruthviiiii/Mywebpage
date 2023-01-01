@@ -54,6 +54,8 @@
   transition: transform 0.4s, width 0.4s;
 }
 
+
+
 .line1open {
   transform: translate(-50%, -10px) !important;
 }

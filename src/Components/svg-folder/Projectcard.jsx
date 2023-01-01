@@ -4,9 +4,9 @@ import "./projectcard.css";
 function Projectcard(props) {
   return (
     <div className="projectcard-temp bg-[#edf1ff] dark:bg-[#22223b]">
-      <h1 className="font-bold text-lg text-left">{props.title}</h1>
+      <h1 className="font-bold text-2xl text-left">{props.title}</h1>
       <br />
-      <p className=" text-left text-sm sm:text-base">{props.des}</p>
+      <p className=" text-left text-sm ">{props.des}</p>
       <br />
       <div className="  flex  gap-6 ">
         <a href={props.links.github} target="_blank">

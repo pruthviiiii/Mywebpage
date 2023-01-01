@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import bitmoji from "./Components/assests/profile2.png";
+import bitmoji from "./Components/assests/profile2.jpeg";
 import Projectdisplay from "./Components/Projectdisplay";
 import chug from "./Components/projectimg/chugnorris.png";
 import netflixclone from "./Components/projectimg/netflixclone.png";
@@ -8,10 +8,6 @@ import weather from "./Components/projectimg/weatherapp.png";
 import { Link } from "react-router-dom";
 import Connect from "./Connect";
 import TechStack from "./Components/TechStack";
-
-const openInNewTab = (url) => {
-  window.open(url, "_blank", "noopener,noreferrer");
-};
 
 function Home() {
   return (
@@ -28,14 +24,14 @@ function Home() {
             </div>
             <br />
             <div className="pt-2">
-              <h1 className="text-center font-bold text-2xl sm:text-[2rem]">
+              <h1 className="text-center font-bold  text-[1.8rem]">
                 <span className=" text-light-head "> Hi, I'm </span>
                 <span>Mahantesha</span>
 
                 <span className=" text-light-head "> from India </span>
               </h1>
               <br />
-              <p className="font-bold text-lg sm:text-lg  ">
+              <p className="font-bold text-lg   ">
                 Full Stack Developer and Tech Enthusiat
               </p>
               <br />
@@ -72,7 +68,7 @@ function Home() {
         </div>
       </section>
       <section>
-        <h1 className="font-bold text-2xl mt-10 sm:mt-0 text-left  dark:text-white">
+        <h1 className="font-bold text-2xl mt-10 sm:mt-0 text-left  dark:text-light-text">
           Tech Stack
         </h1>
         <br />
@@ -84,7 +80,7 @@ function Home() {
       <section>
         <br />
         <Link to="/projects">
-          <h1 className="font-bold text-2xl mt-10 sm:mt-0  text-left  dark:text-white">
+          <h1 className="font-bold text-2xl mt-10 sm:mt-0  text-left  dark:text-light-text">
             Projects
           </h1>
         </Link>
@@ -94,7 +90,7 @@ function Home() {
         </h2>
       </section>
       <br />
-      <div className="sm:w-[96%] mx-auto">
+      <div className="w-[96%] mx-auto">
         <br />
         <Projectdisplay
           title={"NETFLIX Clone "}
