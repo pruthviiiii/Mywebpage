@@ -1,10 +1,10 @@
 import React from "react";
 import "./project.css";
 import Projectdisplay from "./Projectdisplay";
-import chug from "./projectimg/chugnorris.png";
-import weather from "./projectimg/weatherapp.png";
+
 import Projectcard from "./svg-folder/Projectcard";
-import netflixclone from "./projectimg/netflixclone.png";
+
+import { featured, projects } from "./content/project";
 
 function Project(props) {
   return (
@@ -28,86 +28,30 @@ function Project(props) {
       <h1 className=" font-bold text-2xl text-left">Featured Projects</h1>
       <br />
       <br />
-      <Projectdisplay
-        title={"NETFLIX Clone "}
-        des={
-          "A Netflix Clone App built using React js & TMDB API to fetch all the popular movies, top-rated shows, what's trending, collections, lists, and much more."
-        }
-        image={netflixclone}
-        links={{
-          github: "https://github.com/mant3sh/Netflix-Clone",
-          live: "https://netflix-clone-mant3sh.netlify.app/",
-        }}
-      />
-      <br />
-      <br />
-      <Projectdisplay
-        title={"Weather Forecasting Site"}
-        des={
-          "Built a weather forecasting site using OpenWeather API,the user can search for weather information of any place in the world and can see hourly and weekly forecasts. "
-        }
-        image={weather}
-        links={{
-          github: "https://github.com/mant3sh/reat-weatherForecast-v-2",
-          live: "https://mant3sh.github.io/reat-weatherForecast-v-2/",
-        }}
-      />
-      <br />
-      <br />
-      <Projectdisplay
-        title={"Chuck Norris Joke page"}
-        des={
-          "React application acting as client for REST-API provided by api.chucknorris.io which gives random jokes as per user selected category ,using  react hooks application can able to fetch jokes on a click with out reloading the page."
-        }
-        image={chug}
-        links={{
-          github: "https://github.com/mant3sh/chucknorris-joke-react",
-          live: "https://mant3sh.github.io/chucknorris-joke-react/",
-        }}
-      />
+      <div className="w-[96%] mx-auto flex flex-col gap-[50px]">
+        {featured.map((item, idx) => (
+          <Projectdisplay
+            key={idx}
+            title={item.title}
+            des={item.des}
+            links={item.links}
+            image={item.image}
+          />
+        ))}
+      </div>
       <br />
       <br />
 
-      <br />
       <h1 className=" font-bold text-2xl text-left">More Projects</h1>
       <div className="mt-5 projectgrid grid grid-cols-1 sm:grid-cols-2  gap-6">
-        <div>
+        {projects.map((item, idx) => (
           <Projectcard
-            title={"React weather App v-1"}
-            des={
-              "Built a weather forecasting site using OpenWeather API,the user can search for weather information of any place in the world and can see hourly and weekly forecasts."
-            }
-            links={{
-              github: "https://github.com/mant3sh/react-weatherapp",
-              live: "https://mant3sh.github.io/react-weatherapp/",
-            }}
+            key={idx}
+            title={item.title}
+            des={item.des}
+            links={item.links}
           />
-        </div>
-        <div>
-          <Projectcard
-            title={"Whack a Mole Game"}
-            des={
-              "Built a static web page of a popular game whack a mole using only HTML,CSS and JavaScript."
-            }
-            links={{
-              github: "https://github.com/mant3sh/Whack-a-mole-Game-",
-              live: "https://github.com/mant3sh/Whack-a-mole-Game-",
-            }}
-          />
-        </div>
-
-        <div>
-          <Projectcard
-            title={"More vanilla JavaScript Projects"}
-            des={
-              "Collection of Proejcts built using only vanilla JavaScript. Projects like Simple Calculator, Sign Up Page, Todo List etc"
-            }
-            links={{
-              github: "https://github.com/mant3sh/vanillaJavaScript-projects",
-              live: "https://github.com/mant3sh/vanillaJavaScript-projects",
-            }}
-          />
-        </div>
+        ))}
       </div>
     </div>
   );

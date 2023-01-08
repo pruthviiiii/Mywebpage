@@ -2,18 +2,16 @@ import React from "react";
 import "./home.css";
 import bitmoji from "./Components/assests/profile2.jpeg";
 import Projectdisplay from "./Components/Projectdisplay";
-import chug from "./Components/projectimg/chugnorris.png";
-import netflixclone from "./Components/projectimg/netflixclone.png";
-import weather from "./Components/projectimg/weatherapp.png";
 import { Link } from "react-router-dom";
 import Connect from "./Connect";
 import TechStack from "./Components/TechStack";
+import { featured } from "./Components/content/project";
 
 function Home() {
   return (
     <div>
       <section>
-        <div className="intro flex flex-row items-center pt-12">
+        <div className="intro flex flex-row items-center px-2 pt-12">
           <div className="myself mt-3">
             <div className="picture w-[150px] ">
               <img
@@ -24,13 +22,13 @@ function Home() {
             </div>
             <br />
             <div className="pt-2">
-              <h1 className="text-center font-bold  text-[1.8rem]">
+              <h1 className="text-center font-bold  text-[2.1rem]">
                 <span className=" text-light-head "> Hi, I'm </span>
                 <span>Mahantesha</span>
 
                 <span className=" text-light-head "> from India </span>
               </h1>
-              <br />
+
               <p className="font-bold text-lg   ">
                 Full Stack Developer and Tech Enthusiat
               </p>
@@ -90,46 +88,16 @@ function Home() {
         </h2>
       </section>
       <br />
-      <div className="w-[96%] mx-auto">
-        <br />
-        <Projectdisplay
-          title={"NETFLIX Clone "}
-          des={
-            "A Netflix Clone App built using React js & TMDB API to fetch all the popular movies, top-rated shows, what's trending, collections, lists, and much more."
-          }
-          image={netflixclone}
-          links={{
-            github: "https://github.com/mant3sh/Netflix-Clone",
-            live: "https://netflix-clone-mant3sh.netlify.app/",
-          }}
-        />
-        <br />
-        <br />
-        <Projectdisplay
-          title={"Weather Forecasting Site"}
-          des={
-            "Built a weather forecasting site using OpenWeather API,the user can search for weather information of any place in the world and can see hourly and weekly forecasts. "
-          }
-          image={weather}
-          links={{
-            github: "https://github.com/mant3sh/reat-weatherForecast-v-2",
-            live: "https://mant3sh.github.io/reat-weatherForecast-v-2/",
-          }}
-        />
-        <br />
-        <br />
-
-        <Projectdisplay
-          title={"Chuck Norris Joke page"}
-          des={
-            "React application acting as client for REST-API provided by api.chucknorris.io which gives random jokes as per user selected category ,using  react hooks application can able to fetch jokes on a click with out reloading the page."
-          }
-          image={chug}
-          links={{
-            github: "https://github.com/mant3sh/chucknorris-joke-react",
-            live: "https://mant3sh.github.io/chucknorris-joke-react/",
-          }}
-        />
+      <div className="w-[96%] mx-auto flex flex-col gap-[50px]">
+        {featured.map((item, idx) => (
+          <Projectdisplay
+            key={idx}
+            title={item.title}
+            des={item.des}
+            links={item.links}
+            image={item.image}
+          />
+        ))}
       </div>
     </div>
   );

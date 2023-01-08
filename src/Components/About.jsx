@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import profile from "./assests/profile.png";
 
 function About() {
   return (
@@ -11,14 +10,14 @@ function About() {
             👋 Hi, how are you?{" "}
           </h1>
           <br />
-          <p className=" text-left text-[18px]  ">
+          <p className=" text-left ">
             Mahantesh this side, a BE Graduate(2022) from Siddaganga Institute
             of Technology,Tumakuru(🇮🇳) majoring in Electronics and
             Telecommunication. I'm a Full Stack Developer, familiar with MERN
             stack.I'm a huge technology enthuiast.
           </p>
           <br />
-          <p className=" text-left text-[18px] ">
+          <p className=" text-left  ">
             The recent outbreak of the global pandemic, which led to the
             lockdown, has made me a typical computer nerd. Currently iam looking
             for Internship/Full time opportunity in Front end development.
