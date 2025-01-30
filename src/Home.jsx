@@ -17,7 +17,7 @@ function Home() {
               <img
                 className="pt-2 bg-light-modeC rounded-[50%] dark:bg-Dark-modeC "
                 src={bitmoji}
-                alt=""
+                alt="Profile"
               />
             </div>
             <br />
@@ -30,13 +30,13 @@ function Home() {
               </h1>
 
               <p className="font-bold text-lg   ">
-                Full Stack Developer and Tech Enthusiat
+                Full Stack Developer and Tech Enthusiast
               </p>
               <br />
               <a
                 href="https://drive.google.com/drive/folders/1xWFcfMAxRH78YCPz7nQ6NLMRjngrDZ0A?usp=share_link"
-                // className="resume text-lg text-white dark:text-black "
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="flex justify-center">
                   <div className="flex justify-center gap-1 w-[100px] bg-[#319795] text-white rounded-lg px-2 py-1">
@@ -44,7 +44,7 @@ function Home() {
                       className="mt-1"
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 448 512"
                       aria-hidden="true"
                       focusable="false"

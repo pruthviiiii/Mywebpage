@@ -9,6 +9,7 @@ function connect() {
           href="https://github.com/mant3sh"
           className="dark:text-light-text connect"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -30,6 +31,7 @@ function connect() {
           className="connect"
           href="https://www.linkedin.com/in/mahantesha-b-v/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -47,6 +49,7 @@ function connect() {
           title="Email"
           href="mailto:mahantesha.bv1999@gmail.com"
           target="_blank"
+          rel="noopener noreferrer"
           className="connect"
         >
           <svg
@@ -69,6 +72,7 @@ function connect() {
           title="Twitter"
           href="https://twitter.com/mant3sh"
           target="_blank"
+          rel="noopener noreferrer"
           className="connect"
         >
           <svg

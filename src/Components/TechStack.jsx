@@ -5,7 +5,7 @@ import html5 from "./svg-folder/html5.svg";
 import cpp from "./svg-folder/cpp.svg";
 import gitt from "./svg-folder/git.svg";
 import github from "./svg-folder/github.svg";
-import mangodb from "./svg-folder/mangodb.svg";
+import mongodb from "./svg-folder/mongodb.svg";
 import nodejs from "./svg-folder/nodejs.svg";
 import react from "./svg-folder/react.svg";
 import redux from "./svg-folder/redux.svg";
@@ -31,7 +31,7 @@ function TechStack() {
         <Techdisplaybox image={react} tech={"React js"} />
         <Techdisplaybox image={redux} tech={"Redux"} />
         <Techdisplaybox image={express} tech={"Express"} />
-        <Techdisplaybox image={mangodb} tech={"Mongo DB"} />
+        <Techdisplaybox image={mongodb} tech={"Mongo DB"} />
         <Techdisplaybox image={nodejs} tech={"Node js"} />
         <Techdisplaybox image={firebase} tech={"Firebase"} />
         <Techdisplaybox image={github} tech={"GitHub"} />
