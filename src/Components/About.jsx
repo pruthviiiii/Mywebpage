@@ -11,15 +11,15 @@ function About() {
           </h1>
           <br />
           <p className="text-left">
-            Mahantesh this side, a BE Graduate (2022) from Siddaganga Institute
+            Pruthvi this side, a BE Graduate (2023) from Siddaganga Institute
             of Technology, Tumakuru (🇮🇳) majoring in Electronics and
             Telecommunication. I'm a Full Stack Developer, familiar with the MERN
             stack. I'm a huge technology enthusiast.
           </p>
           <br />
           <p className="text-left">
-            The recent outbreak of the global pandemic, which led to the
-            lockdown, has made me a typical computer nerd. Currently, I am looking
+          Spending more time in the digital space over the past few years has deepened my passion for technology and full-stack development. 
+          I’m  Currently, I am looking
             for an Internship/Full-time opportunity in Front-end development.
           </p>
           <br />

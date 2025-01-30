@@ -29,7 +29,7 @@ function App() {
               <div className="flex-1 flex justify-between ">
                 <div className="flex-none">
                   <Link to="/" className="font-semibold text-xl" onClick={scrollUp2}>
-                    Ma.
+                    Pr.
                   </Link>
                 </div>
                 <div className="router flex-1 flex justify-evenly font-semibold text-light-head">
@@ -113,14 +113,14 @@ function App() {
 
               <footer className="mt-5 pb-5 flex flex-col justify-evenly">
                 <div className="flex gap-10 mr-auto ml-auto mt-5 text-sm text-Dark-text underline dark:text-[#6b7280]">
-                  <a href="https://github.com/mant3sh" target="_blank" rel="noopener noreferrer">Github</a>
-                  <a href="https://www.linkedin.com/in/mahantesha-b-v/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                  <a href="mailto:mahantesha.bv1999@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-                  <a href="https://twitter.com/mant3sh" target="_blank" rel="noopener noreferrer">Twitter</a>
+                  <a href="https://github.com/pruthviiiii" target="_blank" rel="noopener noreferrer">Github</a>
+                  <a href="https://www.linkedin.com/in/pruthviraj-hanumantharayappa/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                  <a href="mailto:pruthviraj3234@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
                 </div>
                 <br />
                 <div className="font-medium text-Dark-text text-xs dark:text-light-text">
-                Built with <span role="img" aria-label="love">💜</span> by Mahantesha
+                Built with <span role="img" aria-label="love">💜</span> by Pruthviraj
                 </div>
               </footer>
             </div>

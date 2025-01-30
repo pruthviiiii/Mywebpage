@@ -24,7 +24,7 @@ function Home() {
             <div className="pt-2">
               <h1 className="text-center font-bold  text-[2.1rem]">
                 <span className=" text-light-head "> Hi, I'm </span>
-                <span>Mahantesha</span>
+                <span>Pruthviraj</span>
 
                 <span className=" text-light-head "> from India </span>
               </h1>
@@ -34,7 +34,7 @@ function Home() {
               </p>
               <br />
               <a
-                href="https://drive.google.com/drive/folders/1xWFcfMAxRH78YCPz7nQ6NLMRjngrDZ0A?usp=share_link"
+                href="https://drive.google.com/file/d/1sK2Es-pAPdd35qe86J2hikMJAMWkj3Gg/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >

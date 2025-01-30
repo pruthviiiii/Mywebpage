@@ -1,11 +1,12 @@
-import chit from "./imgs/chitchat.png";
-import tesla from "./imgs/tesla.png";
-import netflixclone from "../projectimg/netflixclone.png";
+//import chit from "./imgs/chitchat.png";
+//import tesla from "./imgs/tesla.png";
+//import netflixclone from "../projectimg/netflixclone.png";
+import advelar from "./imgs/advelar.png";
 import weather from "../projectimg/weatherapp.png";
-import book from "./imgs/book.png";
+//import book from "./imgs/book.png";
 
 export const featured = [
-  {
+ /* {
     title: "ChitChat",
     des: "ChitChat is a real-time community messaging app that allows users to create and join groups, send and receive messages in real-time, and view a history of past conversations. Built using React, Redux, and Firebase.",
     links: {
@@ -40,36 +41,53 @@ export const featured = [
       github: "https://github.com/mant3sh/Netflix-Clone",
       live: "https://netflix-clone-mant3sh.netlify.app/",
     },
-  },
+  },*/
   {
+    title: "Advelar-Planners",
+    des: "An Event management website users can leave a comment or feedback and can contact them by reaching out",
+    image:advelar,
+    links: {
+      github: "https://github.com/pruthviiiii/EVENT_PLAN",
+      live: "https://advelar-planners.netlify.app",
+    },
+  },
+    {
     title: "Weather Forecasting Site",
     des: "A weather forecasting site using OpenWeather API. Users can search for weather information of any location worldwide and see hourly and weekly forecasts.",
     image: weather,
     links: {
-      github: "https://github.com/mant3sh/reat-weatherForecast-v-2",
+      github: "https://github.com/pruthviiiii/weather-monitering",
       live: "https://mant3sh.github.io/reat-weatherForecast-v-2/",
     },
   },
 ];
 
 export const projects = [
-  {
+ /* {
     title: "Fakekart E-Commerce WebApp",
     des: "An E-Commerce web application where listed products are fetched dynamically using the FakeShop API. Users can add products to the cart and proceed to checkout. Built using React, Redux, and FakeShop API.",
     links: {
       github: "https://github.com/mant3sh/React-redux-fakeshopping-app",
       live: "https://fakekartt.netlify.app/",
     },
-  },
+  },*/
   {
     title: "React Weather App v-1",
     des: "A weather forecasting site using OpenWeather API. Users can search for weather information of any place in the world and view hourly and weekly forecasts.",
     links: {
-      github: "https://github.com/mant3sh/react-weatherapp",
+      github: "https://github.com/pruthviiiii/weather-monitering",
       live: "https://mant3sh.github.io/react-weatherapp/",
     },
   },
   {
+    title: "Advelar-Planners",
+    des: "An Event management website users can leave a comment or feedback and can contact them by reaching out",
+    links: {
+      github: "https://github.com/pruthviiiii/EVENT_PLAN",
+      live: "https://advelar-planners.netlify.app",
+    },
+  }
+  /*{
     title: "Chuck Norris Joke Page",
     des: "A React application acting as a client for the REST API provided by api.chucknorris.io. It delivers random jokes based on user-selected categories. Uses React Hooks to fetch jokes dynamically without page reloads.",
     links: {
@@ -84,5 +102,5 @@ export const projects = [
       github: "https://github.com/mant3sh/Whack-a-mole-Game-",
       live: "https://mant3sh.github.io/Whack-a-mole-Game-/",
     },
-  },
+  },*/
 ];

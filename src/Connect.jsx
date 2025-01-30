@@ -6,7 +6,7 @@ function connect() {
       <div className="flex justify-evenly mt-12 ">
         <a
           title="Github"
-          href="https://github.com/mant3sh"
+          href="https://github.com/pruthviiiii"
           className="dark:text-light-text connect"
           target="_blank"
           rel="noopener noreferrer"
@@ -29,7 +29,7 @@ function connect() {
         <a
           title="Linkedin"
           className="connect"
-          href="https://www.linkedin.com/in/mahantesha-b-v/"
+          href="https://www.linkedin.com/in/pruthviraj-hanumantharayappa/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -47,7 +47,7 @@ function connect() {
         </a>
         <a
           title="Email"
-          href="mailto:mahantesha.bv1999@gmail.com"
+          href="mailto:pruthviraj3234@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="connect"
@@ -70,7 +70,7 @@ function connect() {
         </a>
         <a
           title="Twitter"
-          href="https://twitter.com/mant3sh"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="connect"
