@@ -6,6 +6,7 @@ import About from "./Components/About";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Project from "./Components/Project";
 import HobbiesandInterests from "./Components/HobbiesandInterests";
+import { NavLink } from "react-router-dom";
 
 function App() {
   const [darkmode, setDarkmode] = useState(false);
@@ -28,14 +29,60 @@ function App() {
             <nav className="navdetail flex bg-nav-light dark:bg-nav-dark gap-2">
               <div className="flex-1 flex justify-between ">
                 <div className="flex-none">
-                  <Link to="/" className="font-semibold text-xl" onClick={scrollUp2}>
-                    Pr.
-                  </Link>
+                <NavLink 
+  to="/" 
+  onClick={scrollUp2} 
+  className={({ isActive }) => 
+    `relative text-2xl transition-all duration-200 
+    font-bold inline-block 
+    hover:scale-125 hover:text-green-700 
+    after:content-[''] after:absolute after:left-0 after:bottom-[-2px] 
+    after:w-0 after:h-[2px] after:bg-green-950 after:transition-all after:duration-300 
+    hover:after:w-full 
+    ${isActive ? "scale-125 text-green-700 after:w-full" : ""}`
+  }
+>
+  Pr.
+</NavLink>
+
                 </div>
                 <div className="router flex-1 flex justify-evenly font-semibold text-light-head">
-                  <Link to="/about" onClick={scrollUp2}>About</Link>
-                  <Link to="/Projects" onClick={scrollUp2}>Projects</Link>
-                  <Link to="/Hobbies" onClick={scrollUp2}>Hobbies and Interests</Link>
+                
+                <NavLink 
+  to="/about" 
+  onClick={scrollUp2} 
+  className={({ isActive }) => 
+    `relative text-lg transition-all duration-200 
+    hover:scale-110 hover:text-green-700 
+    after:content-[''] after:absolute after:left-0 after:bottom-[-2px] 
+    after:w-0 after:h-[2px] after:bg-green-950 after:transition-all after:duration-300 
+    hover:after:w-full 
+    ${isActive ? "scale-110 text-green-700 after:w-full" : ""}`
+  }
+>
+  About
+</NavLink>
+
+
+                  <NavLink to="/Projects" onClick={scrollUp2} className={({ isActive }) => 
+    `relative text-lg transition-all duration-200 
+    hover:scale-110 hover:text-green-700 
+    after:content-[''] after:absolute after:left-0 after:bottom-[-2px] 
+    after:w-0 after:h-[2px] after:bg-green-950 after:transition-all after:duration-300 
+    hover:after:w-full 
+    ${isActive ? "scale-110 text-green-700 after:w-full" : ""}`
+  } >Projects</NavLink>
+
+
+                  <NavLink to="/Hobbies" onClick={scrollUp2} className={({ isActive }) => 
+    `relative text-lg transition-all duration-200 
+    hover:scale-110 hover:text-green-700 
+    after:content-[''] after:absolute after:left-0 after:bottom-[-2px] 
+    after:w-0 after:h-[2px] after:bg-green-950 after:transition-all after:duration-300 
+    hover:after:w-full 
+    ${isActive ? "scale-110 text-green-700 after:w-full" : ""}`
+  } >Hobbies and Interests</NavLink>
+
                 </div>
                 <div className="flex-none mr-2 font-semibold text-sm gap-3">
                   {darkmode ? (
@@ -86,14 +133,6 @@ function App() {
                     </div>
                   )}
                 </div>
-
-         
-                <div className="burger" onClick={() => setMenue(!menue)}>
-                  <div className={menue ? "line line1close" : "line line1open"}></div>
-                  <div className={menue ? "line line2close" : "line"}></div>
-                  <div className={menue ? "line line3close" : "line line3open"}></div>
-                </div>
-
               </div>
             </nav>
 
@@ -117,19 +156,19 @@ function App() {
                 <Route path="*" element={<Home />} />
               </Routes>
 
-              <hr className="mt-12 border-t border-gray-300 dark:border-gray-700" />
+              <hr className="mt-12" />
+
               <footer className="mt-5 pb-5 flex flex-col justify-evenly">
                 <div className="flex gap-10 mr-auto ml-auto mt-5 text-sm text-Dark-text underline dark:text-[#6b7280]">
                   <a href="https://github.com/pruthviiiii" target="_blank" rel="noopener noreferrer">Github</a>
-                  <a href="https://www.linkedin.com/in/pruthviraj-hanumantharayappa/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/pruthviraj-hanumantharayappa/" target="_blank" rel="noopener noreferrer">Linkedin</a>
                   <a href="mailto:pruthviraj3234@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
                 </div>
                 <br />
                 <div className="font-medium text-Dark-text text-xs dark:text-light-text">
-                  Built with <span role="img" aria-label="love">💜</span> by Pruthviraj
+                Built with <span role="img" aria-label="love">💜</span> by Pruthviraj
                 </div>
               </footer>
-
             </div>
           </div>
         </Router>

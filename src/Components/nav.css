@@ -1,0 +1,62 @@
+/* Default link styles */
+.nav-link {
+    color: gray; /* Default text color */
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+  }
+  
+  /* Hover effect */
+  .nav-link:hover {
+    color: black; /* Change text color on hover */
+    border-bottom: 2px solid black;
+  }
+  
+  /* Active page effect */
+  .nav-link.active {
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+  }
+  
+  /* Navbar container */
+  .navdetail {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navbar links container */
+  .router {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Dark mode styles */
+  .dark .nav-link {
+    color: #d1d5db; /* Light gray text for dark mode */
+  }
+  
+  .dark .nav-link:hover,
+  .dark .nav-link.active {
+    color: white; /* White text in dark mode */
+    border-bottom: 2px solid white;
+  }
+  
+  /* Responsive Navbar */
+  @media screen and (max-width: 768px) {
+    .router {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .navdetail {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

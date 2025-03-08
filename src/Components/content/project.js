@@ -75,8 +75,8 @@ export const projects = [
     title: "React Weather App v-1",
     des: "A weather forecasting site using OpenWeather API. Users can search for weather information of any place in the world and view hourly and weekly forecasts.",
     links: {
-      github: "https://github.com/pruthviiiii/weather-monitering",
-      live: "https://github.com/pruthviiiii/weather-app",
+      github: "https://github.com/pruthviiiii/weather-app",
+      live: "https://pruthviiiii.github.io/weather-app/",
     },
   },
   {
