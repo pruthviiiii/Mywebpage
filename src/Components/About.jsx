@@ -19,14 +19,14 @@ function About() {
           <br />
           <p className="text-left">
           Spending more time in the digital space over the past few years has deepened my passion for technology and full-stack development. 
-          I’m  Currently, I am looking
+          Currently I am looking
             for an Internship/Full-time opportunity in Front-end development.
           </p>
           <br />
           <div className="flex gap-6 mt-8 mr-2">
             <a
               title="Github"
-              href="https://github.com/mant3sh"
+              href="https://github.com/pruthviiiii"
               className="dark:text-light-text connect"
               target="_blank"
               rel="noopener noreferrer"
@@ -49,7 +49,7 @@ function About() {
             <a
               title="Linkedin"
               className="connect"
-              href="https://www.linkedin.com/in/mahantesha-b-v/"
+              href="https://www.linkedin.com/in/pruthviraj-hanumantharayappa/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -66,22 +66,17 @@ function About() {
             </a>
             <a
               title="Email"
-              href="mailto:mahantesha.bv1999@gmail.com"
+              href="mailto:pruthviraj3234@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="connect"
             >
-              📧
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+  </svg>
             </a>
-            <a
-              title="Twitter"
-              href="https://twitter.com/mant3sh"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="connect"
-            >
-              🐦
-            </a>
+            
           </div>
           <br />
           <br />

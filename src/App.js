@@ -86,6 +86,14 @@ function App() {
                     </div>
                   )}
                 </div>
+
+         
+                <div className="burger" onClick={() => setMenue(!menue)}>
+                  <div className={menue ? "line line1close" : "line line1open"}></div>
+                  <div className={menue ? "line line2close" : "line"}></div>
+                  <div className={menue ? "line line3close" : "line line3open"}></div>
+                </div>
+
               </div>
             </nav>
 
@@ -109,20 +117,19 @@ function App() {
                 <Route path="*" element={<Home />} />
               </Routes>
 
-              <hr className="mt-12" />
-
+              <hr className="mt-12 border-t border-gray-300 dark:border-gray-700" />
               <footer className="mt-5 pb-5 flex flex-col justify-evenly">
                 <div className="flex gap-10 mr-auto ml-auto mt-5 text-sm text-Dark-text underline dark:text-[#6b7280]">
                   <a href="https://github.com/pruthviiiii" target="_blank" rel="noopener noreferrer">Github</a>
-                  <a href="https://www.linkedin.com/in/pruthviraj-hanumantharayappa/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                  <a href="https://www.linkedin.com/in/pruthviraj-hanumantharayappa/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                   <a href="mailto:pruthviraj3234@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
                 </div>
                 <br />
                 <div className="font-medium text-Dark-text text-xs dark:text-light-text">
-                Built with <span role="img" aria-label="love">💜</span> by Pruthviraj
+                  Built with <span role="img" aria-label="love">💜</span> by Pruthviraj
                 </div>
               </footer>
+
             </div>
           </div>
         </Router>

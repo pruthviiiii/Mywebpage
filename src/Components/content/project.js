@@ -56,8 +56,8 @@ export const featured = [
     des: "A weather forecasting site using OpenWeather API. Users can search for weather information of any location worldwide and see hourly and weekly forecasts.",
     image: weather,
     links: {
-      github: "https://github.com/pruthviiiii/weather-monitering",
-      live: "https://mant3sh.github.io/reat-weatherForecast-v-2/",
+      github: "https://github.com/pruthviiiii/weather-app",
+      live: "https://pruthviiiii.github.io/weather-app/",
     },
   },
 ];
@@ -76,7 +76,7 @@ export const projects = [
     des: "A weather forecasting site using OpenWeather API. Users can search for weather information of any place in the world and view hourly and weekly forecasts.",
     links: {
       github: "https://github.com/pruthviiiii/weather-monitering",
-      live: "https://mant3sh.github.io/react-weatherapp/",
+      live: "https://github.com/pruthviiiii/weather-app",
     },
   },
   {

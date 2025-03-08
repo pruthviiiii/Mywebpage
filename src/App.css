@@ -16,7 +16,6 @@
   padding-inline: 15px;
 }
 
-
 .navdetail {
   position: fixed;
   top: 0;
@@ -44,7 +43,7 @@
   height: 30px;
 }
 
-.burger>div {
+.burger > div {
   position: absolute;
   width: 35px;
   height: 2px;
@@ -53,8 +52,6 @@
   transform: translate(-50%, -50%);
   transition: transform 0.4s, width 0.4s;
 }
-
-
 
 .line1open {
   transform: translate(-50%, -10px) !important;
@@ -82,10 +79,9 @@
   top: 24px;
   right: 0px;
   left: 0px;
-
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .router {
     display: none;
   }
@@ -96,13 +92,9 @@
   }
 
   .burger {
-    display: flex;
+    display: flex; /* ✅ Fix: Ensure the burger menu is visible on mobile */
   }
-
-
 }
-
-
 
 .menu-box {
   max-width: 600px;

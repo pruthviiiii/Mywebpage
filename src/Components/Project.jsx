@@ -16,8 +16,8 @@ function Project(props) {
         className="mx-auto"
         src={
           props.darkMode
-            ? "https://github-readme-streak-stats.herokuapp.com?user=mant3sh&theme=dark&hide_border=true"
-            : "https://streak-stats.demolab.com/?user=mant3sh"
+            ? "https://github-readme-streak-stats.herokuapp.com?user=pruthviiiii&theme=dark&hide_border=true"
+            : "https://streak-stats.demolab.com/?user=pruthviiiii"
         }
         alt="GitHub Streak Stats"
       />
