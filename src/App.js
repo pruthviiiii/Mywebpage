@@ -33,7 +33,7 @@ function App() {
   to="/" 
   onClick={scrollUp2} 
   className={({ isActive }) => 
-    `relative text-2xl transition-all duration-200 
+    `relative text-xl transition-all duration-200 
     font-bold inline-block 
     hover:scale-125 hover:text-green-700 
     after:content-[''] after:absolute after:left-0 after:bottom-[-2px] 
