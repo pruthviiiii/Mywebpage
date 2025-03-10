@@ -118,3 +118,28 @@ footer {
     display: none;
   }
 }
+/* Optional if you're using plain CSS */
+.burgermenue {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f6f6f6; /* light mode */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.dark .burgermenue {
+  background-color: #1a202c; /* dark mode */
+}
+
+.menu-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  text-align: center;
+}
+

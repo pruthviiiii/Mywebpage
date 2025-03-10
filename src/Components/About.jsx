@@ -11,7 +11,7 @@ function About() {
           </h1>
           <br />
           <p className="text-left">
-            Pruthvi this side, a BE Graduate (2023) from Siddaganga Institute
+            Pruthvi this side, a Bachelor's in Engineering Graduate from Siddaganga Institute
             of Technology, Tumakuru (🇮🇳) majoring in Electronics and
             Telecommunication. I'm a Full Stack Developer, familiar with the MERN
             stack. I'm a huge technology enthusiast.
@@ -19,8 +19,7 @@ function About() {
           <br />
           <p className="text-left">
           Spending more time in the digital space over the past few years has deepened my passion for technology and full-stack development. 
-          Currently I am looking
-            for an Internship/Full-time opportunity in Front-end development.
+          Currently I am working as a full stack web developer at <a href="https://hutechsolutions.com/" target="_blank" rel="noopener noreferrer" className="text-green-700">HuTech Solutions</a>.
           </p>
           <br />
           <div className="flex gap-6 mt-8 mr-2">
