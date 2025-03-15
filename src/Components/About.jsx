@@ -22,6 +22,30 @@ function About() {
           Currently I am working as a full stack web developer at <a href="https://hutechsolutions.com/" target="_blank" rel="noopener noreferrer" className="text-green-700">HuTech Solutions</a>.
           </p>
           <br />
+          <br/>
+
+
+
+          <h1 className="font-bold text-4xl text-left">
+            <span role="img" aria-label="Waving hand">🚀</span> Vision Statement.
+          </h1>
+          <br />
+          <p className="text-left">
+          For me, technology is more than code—it’s a tool to shape the future.
+           I’m here to lead, to innovate, and to deliver. The world is my workspace, 
+           and I’m ready to make an impact.
+          </p>
+          <br />
+          <p className="text-left">
+          I thrive in environments where innovation is the standard, not the exception.
+            I am ready to collaborate with dynamic teams across borders,
+            break through limitations, and deliver high-performance solutions that drive real results. Whether it’s developing seamless user experiences or architecting complex systems,
+           I bring precision, passion, and purpose to every project I take on.
+          </p>
+          <br />   
+
+
+
           <div className="flex gap-6 mt-8 mr-2">
             <a
               title="Github"
@@ -79,6 +103,10 @@ function About() {
           </div>
           <br />
           <br />
+
+
+          
+
           <h1 className="text-3xl font-bold text-left">
             My Interests lie in:
           </h1>
